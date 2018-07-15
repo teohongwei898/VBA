@@ -1,0 +1,13 @@
+Private Sub say_helloworld_Click()
+   Dim password As String
+   password = "Admin#1"
+
+   Dim num As Integer
+   num = 1234
+
+   Dim BirthDay As Date
+   BirthDay = DateValue("30 / 10 / 2020")
+
+   MsgBox "Passowrd is " & password & Chr(10) & "Value of num is " &
+      num & Chr(10) & "Value of Birthday is " & BirthDay
+End Sub
